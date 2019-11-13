@@ -22,7 +22,7 @@ from telegram import ParseMode
 from telegram.ext import Updater, CommandHandler, run_async
 
 # Name of the environment variable which defines the bot token
-TOKEN_ENV_NAME = 'VIDEO_DL_BOT_TOKEN'
+TOKEN_ENV_NAME = '812132645:AAHAo1prXYco71Wf-uxtOGh3sKmzVC-ZkB0'
 
 # Default download location
 VIDEO_DL_DIR = '/tmp/'
@@ -34,7 +34,7 @@ VIDEO_FILE_PREFIX = 'tgbot_'
 FINISHED_PATTERN = 'tgok'
 
 # Proxy Web service which provide useable open proxy addresses
-PROXY_WS_HOST = '127.0.0.1'
+PROXY_WS_HOST = '0.0.0.0'
 PROXY_WS_PORT = 5000
 
 UPLOAD_TIMEOUT = 999
