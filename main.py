@@ -228,7 +228,7 @@ def error(bot, update, err):
 
 def main():
     # Create the Updater and pass it your bot's token.
-    token = os.environ.get(TOKEN_ENV_NAME)
+    token = TOKEN_ENV_NAME
     if token is None:
         logger.fatal('Can\'t find bot token in environment variable "%s"', TOKEN_ENV_NAME)
         return 1
